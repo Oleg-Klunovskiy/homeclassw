@@ -1,0 +1,27 @@
+body{
+    background: #9d9d9d;
+}
+.a,.b,.c{
+    border: 2px solid brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.a,.content {
+    width: 800px;
+}
+.b,.c{
+    height: 700px;
+}
+.content{
+    display: flex;
+}
+.a{
+    height: 200px;
+}
+.b{
+    width: 600px;
+}
+.c{
+    width: 200px;
+}

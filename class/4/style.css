@@ -1,0 +1,30 @@
+.a,.b,.h{
+    border: 2px solid rebeccapurple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.a{
+    width: 800px;
+    height: 200px;
+}
+.b{
+    width: 190px;
+    height: 190px;
+}
+.content{
+    width: 800px;
+    height: 400px;
+    display: flex;
+}
+.h{
+    width: 200px;
+
+}
+.content-l{
+    flex-wrap: wrap;
+    width: 600px;
+
+    display: flex;
+    justify-content: space-between;
+}

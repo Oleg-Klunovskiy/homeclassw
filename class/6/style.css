@@ -1,0 +1,36 @@
+.box{
+    width: 600px;
+
+}
+.a,.b,.c{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.a,.b{
+    background: #2269ba;
+}
+.a{
+    width: 250px;
+    height: 400px;
+    display: flex;
+}
+.b{
+    width: 600px;
+    height: 250px;
+    margin-top: 20px;
+}
+.c{
+    width: 150px;
+    height: 150px;
+    background: #16457a;
+}
+.a-box{
+    display: flex;
+    justify-content: space-between;
+}
+.c-box{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}

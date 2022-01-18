@@ -1,0 +1,36 @@
+
+p {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+header,.nav-box,.content,footer{
+    width: 100%;
+}
+header{
+    background: #0c65a6;
+    height: 100px;
+}
+.nav-box{
+    background: #124b78;
+    height: 80px;
+}
+.content{
+    display: flex;
+    height: 500px;
+}
+.main-box{
+    width: 80%;
+    height: 500px%;
+    background: #16a1c4;
+}
+.aside-box{
+    width: 20%;
+    height: 500px%;
+    background: #5275ac;
+}
+footer{
+    height: 100px;
+    background:#7bcce2;
+}

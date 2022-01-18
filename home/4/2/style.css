@@ -1,0 +1,35 @@
+.h100{
+    height: 100px;
+}
+.mc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top,.nav-box,.content,.bottom{
+    width: 100%;
+}
+.top{
+    background: #0c65a6;
+}
+.nav-box{
+    background: #124b78;
+    height: 80px;
+}
+.content{
+    display: flex;
+    height: 500px;
+}
+.main-box{
+    width: 80%;
+    height: 500px%;
+    background: #16a1c4;
+}
+.aside-box{
+    width: 20%;
+    height: 500px;
+    background: #5275ac;
+}
+.bottom{
+    background:#7bcce2;
+}
