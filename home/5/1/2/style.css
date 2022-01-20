@@ -1,0 +1,69 @@
+.a, .b, .c, .f {
+    border: 2px solid coral;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.box {
+    width: 100%;
+    height: 100vh;
+}
+
+.a, .box {
+    width: 100%;
+}
+
+.a, .b, .c {
+    height: 30vh;
+}
+
+.b {
+    width: 100%;
+}
+
+.c {
+    width: 33%;
+}
+
+.f {
+    width: 30%;
+    height: 60vh;
+}
+
+.content {
+    display: flex;
+}
+
+.cde {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    width: 70%;
+
+}
+
+@media screen and (max-width: 576px) {
+
+    .a, .b, .f{
+        width: 100%;
+        height: 20vh;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+    .left{
+        width: 100%;
+    }
+
+    .b {
+        width: 100%;
+        height: 40vh;
+    }
+
+}
+
