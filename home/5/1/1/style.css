@@ -1,0 +1,24 @@
+.a,.b,.c{
+    border: 2px solid coral;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.a{
+    width: 1000px;
+    height: 200px;
+}
+.box{
+    width: 1000px;
+    height: 400px;
+    display: flex;
+}
+.b{
+    width: 800px;
+    height: 400px;
+}
+.c{
+    width: 200px;
+    height: 400px;
+}
