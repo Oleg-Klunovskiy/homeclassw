@@ -16,10 +16,46 @@
 .content{
     display: flex;
     width: 100%;
-    height: 70vh;
+    height: 80vh;
 }
 .content-box {
     width: 70%;
     height: 80vh;
 
 }
+
+.c{
+    width: 33%;
+    height: 40vh;
+}
+.h{
+    width: 30%;
+}
+.content-l-top,.content-l-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 576px) {
+    body{
+        background: rebeccapurple;
+    }
+
+    .content{
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+    }
+    .content-box{
+        width: 100%;
+        height: 50vh;
+    }
+    .h{
+        margin-top: 30vh;
+        width: 100%;
+        height: 30vh;
+    }
+
+
+}
+

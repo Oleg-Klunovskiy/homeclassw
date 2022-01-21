@@ -6,6 +6,9 @@ body {
 .b1, .b2, .b3, .b4, .b5, .b6, .b7 {
     border: 2px solid rebeccapurple;
     box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .b1 {
@@ -90,11 +93,7 @@ body {
         height: 30vh;
     }
 
-    .b4 {
-        height: 40vh;
-    }
-
-    .b5 {
+    .b4,.b5 {
         height: 40vh;
     }
 
