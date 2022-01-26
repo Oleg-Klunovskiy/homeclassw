@@ -2,9 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa20bd0f-a08d-4688-ad64-7eb773ce50c7" name="Changes" comment="Merge remote-tracking branch 'github/master'">
-      <change afterPath="$PROJECT_DIR$/home/Sprig/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/Sprig/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/Sprig/img/box/adobe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/Sprig/img/box/app.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/Sprig/img/box/beyond.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/Sprig/img/box/chipper.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/Sprig/img/box/code.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/Sprig/img/box/drop-box.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/Sprig/img/box/ease.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/Sprig/img/box/invoice.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/Sprig/img/box/iron.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/Sprig/img/box/loom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/Sprig/img/box/opendor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/Sprig/img/box/pro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/Sprig/img/box/shift.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/Sprig/img/box/sqare.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/Sprig/img/box/surf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/Sprig/img/img-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/Sprig/img/img-video.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/Sprig/img/product-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/Sprig/img/product-img.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/Sprig/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/home/Sprig/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/Sprig/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/Sprig/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +50,6 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/home/5/1/2/style.css" />
     <property name="settings.editor.selected.configurable" value="copyright.filetypes.CSS" />
@@ -59,7 +77,8 @@
       <workItem from="1642786303767" duration="447000" />
       <workItem from="1643031833461" duration="451000" />
       <workItem from="1643101806755" duration="732000" />
-      <workItem from="1643118759356" duration="10693000" />
+      <workItem from="1643118759356" duration="10843000" />
+      <workItem from="1643182151624" duration="8111000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1642512691903</created>
@@ -299,7 +318,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643101890462</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Merge remote-tracking branch 'github/master'">
+      <created>1643138237176</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1643138237177</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
