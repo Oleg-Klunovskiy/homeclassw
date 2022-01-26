@@ -99,10 +99,6 @@
     column-gap: 16px;
 }
 
-.buttons a {
-    text-decoration: none;
-}
-
 .start {
     width: 163px;
     height: 54px;
@@ -115,6 +111,7 @@
 
 .start a {
     color: var(--title-color);
+    text-decoration: none;
 }
 
 .talk {
@@ -129,6 +126,7 @@
 
 .talk a {
     color: var(--black-color);
+    text-decoration: none;
 }
 
 .content_img {
@@ -194,6 +192,123 @@
 .product-title {
     font-size: 34px;
     line-height: 40px;
+    margin-right: 121px;
     letter-spacing: 0.34px;
     color: var(--title-color);
+}
+
+.product_main-text {
+    font-size: 22px;
+    line-height: 32px;
+    color: var(--title-color);
+    margin: 35px 145px 0 0;
+}
+
+.sping-title {
+    width: 711px;
+    height: 80px;
+    margin-left: 365px;
+    margin-right: auto;
+    margin-top: 191px;
+    font-size: 34px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.34px;
+    color: var(--title-color);
+}
+
+.sping-img {
+    margin-top: 57px;
+    margin-left: 265px;
+    margin-right: auto;
+}
+
+.start-btn {
+    margin-top: 191px;
+    margin-left: 638px;
+}
+
+.target {
+    width: 1260px;
+    height: 537px;
+    margin-top: 160px;
+    margin-left: 148px;
+    margin-right: auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background: #BD78F0;
+    border-radius: 10px;
+}
+
+.target-title {
+    font-size: 42px;
+    line-height: 48px;
+    letter-spacing: 0.42px;
+    color: var(--title-color);
+    margin: 0 193px 0 136px;
+}
+
+.target_main-text {
+    font-size: 17px;
+    line-height: 28px;
+    color: var(--title-color);
+    margin: 39px 128px 0 136px;
+
+}
+
+.target-img {
+    width: 562px;
+    height: 409px;
+    margin-left: -116px;
+}
+
+.solutions-box {
+    margin-top: 136px;
+    width: 1027px;
+    height: 240px;
+    margin-left: 148px;
+}
+
+.solutions {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: #6A7981;
+    margin-bottom: 13px;
+}
+
+.solutions-title {
+    font-size: 42px;
+    line-height: 48px;
+    letter-spacing: 0.42px;
+    color: var(--title-color);
+    width: 593px;
+    height: 144px;
+}
+
+.solutions-text {
+    font-size: 22px;
+    line-height: 32px;
+    color: var(--text-color);
+    margin-top: 26px;
+}
+.mt226{
+    margin-top: 226px;
+}
+.context-box {
+    display: flex;
+    margin-left: 148px;
+}
+
+.context-title {
+    font-size: 34px;
+    line-height: 40px;
+    letter-spacing: 0.34px;
+    color: var(--title-color);
+    margin-top: 23px;
+}
+.context-text{
+
 }

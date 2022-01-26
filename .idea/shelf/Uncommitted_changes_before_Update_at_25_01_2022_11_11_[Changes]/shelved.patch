@@ -1,0 +1,30 @@
+Index: home/Sprig/index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/home/Sprig/index.html b/home/Sprig/index.html
+new file mode 100644
+--- /dev/null	(date 1643101855276)
++++ b/home/Sprig/index.html	(date 1643101855276)
+@@ -0,0 +1,17 @@
++<!DOCTYPE html>
++<html lang="ua">
++
++<head>
++    <meta charset="UTF-8">
++    <meta http-equiv="X-UA-Compatible" content="IE=edge">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Sprig</title>
++    <link rel="stylesheet" href="style.css">
++</head>
++
++<body>
++
++
++</body>
++
++</html>
+\ No newline at end of file
+diff --git a/home/Sprig/css/style.css b/home/Sprig/css/style.css
+new file mode 100644
