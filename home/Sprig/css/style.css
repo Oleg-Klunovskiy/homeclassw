@@ -98,6 +98,10 @@
     display: flex;
     column-gap: 16px;
 }
+button a{
+    font-size: 16px;
+    line-height: 24px;
+}
 
 .start {
     width: 163px;
@@ -112,6 +116,8 @@
 .start a {
     color: var(--title-color);
     text-decoration: none;
+    font-size: 16px;
+    line-height: 24px;
 }
 
 .talk {
@@ -310,5 +316,7 @@
     margin-top: 23px;
 }
 .context-text{
-
+    font-size: 17px;
+    line-height: 28px;
+    color: var(--text-color);
 }
