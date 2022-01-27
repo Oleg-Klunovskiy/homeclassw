@@ -98,7 +98,8 @@
     display: flex;
     column-gap: 16px;
 }
-button a{
+
+button a {
     font-size: 16px;
     line-height: 24px;
 }
@@ -113,9 +114,13 @@ button a{
 
 }
 
+button a {
+    text-decoration: none;
+}
+
 .start a {
     color: var(--title-color);
-    text-decoration: none;
+
     font-size: 16px;
     line-height: 24px;
 }
@@ -132,7 +137,7 @@ button a{
 
 .talk a {
     color: var(--black-color);
-    text-decoration: none;
+
 }
 
 .content_img {
@@ -300,23 +305,47 @@ button a{
     color: var(--text-color);
     margin-top: 26px;
 }
-.mt226{
+
+.mt226 {
     margin-top: 226px;
 }
-.context-box {
-    display: flex;
-    margin-left: 148px;
-}
 
+.context-box {
+    width: 1260px;
+    height: 440px;
+    margin-left: 148px;
+    margin-right: 32px;
+    display: flex;
+    align-items: center;
+}
+.context{
+    width: 513px;
+    height: 348px;
+}
 .context-title {
     font-size: 34px;
     line-height: 40px;
     letter-spacing: 0.34px;
     color: var(--title-color);
-    margin-top: 23px;
 }
-.context-text{
+
+.context-text {
     font-size: 17px;
     line-height: 28px;
     color: var(--text-color);
+
+}
+.learn-more{
+    width: 144px;
+    height: 54px;
+    border: 1px solid #0B2330;
+    box-sizing: border-box;
+    border-radius: 4px;
+    background-color: #fff;
+}
+.learn-more a{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--black-color);
 }
