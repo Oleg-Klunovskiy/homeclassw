@@ -120,7 +120,6 @@ button a {
 
 .start a {
     color: var(--title-color);
-
     font-size: 16px;
     line-height: 24px;
 }
@@ -310,32 +309,44 @@ button a {
     margin-top: 226px;
 }
 
-.context-box {
+.context-box, .group-box {
     width: 1260px;
     height: 440px;
     margin-left: 148px;
     margin-right: 32px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
-.context{
+
+.context-logo, .group-logo {
+    width: 40px;
+    height: 40px;
+}
+
+.context, .group {
     width: 513px;
     height: 348px;
+
 }
-.context-title {
+
+.context-title, .group-title {
     font-size: 34px;
     line-height: 40px;
     letter-spacing: 0.34px;
     color: var(--title-color);
+    margin-top: 23px;
 }
 
-.context-text {
+.context-text, .group-text {
     font-size: 17px;
     line-height: 28px;
     color: var(--text-color);
+    margin-top: 29px;
 
 }
-.learn-more{
+
+.learn-more {
     width: 144px;
     height: 54px;
     border: 1px solid #0B2330;
@@ -343,9 +354,44 @@ button a {
     border-radius: 4px;
     background-color: #fff;
 }
-.learn-more a{
+
+.mt64 {
+    margin-top: 64px;
+}
+
+.mt36 {
+    margin-top: 36px;
+}
+
+.learn-more a {
     text-decoration: none;
     font-size: 16px;
     line-height: 24px;
     color: var(--black-color);
+}
+
+.button-box {
+    margin-left: 148px;
+}
+
+.mq-style {
+    color: #61757E;
+    margin-right: 8px;
+    background: #E7EAEB;
+    border-radius: 4px;
+}
+
+.t-style {
+    color: var(--title-color);
+    background: #FE9F28;
+    border-radius: 4px;
+}
+
+.mq-style, .testing {
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    padding: 10px;
+    border: none;
 }
