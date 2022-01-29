@@ -395,3 +395,21 @@ button a {
     padding: 10px;
     border: none;
 }
+
+.features-box {
+    Width: 1440px;
+    Height: 960px;
+    background: #F2EDE7;
+    margin-top: 152px;
+}
+.features,.features-title,.features-img-l{
+    margin-left: 122px;
+}
+
+.features-img{
+    display: flex;
+}
+
+.features-img-r{
+    margin-left: 141px;
+}
