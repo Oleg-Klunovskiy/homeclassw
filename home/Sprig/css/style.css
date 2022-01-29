@@ -370,7 +370,7 @@ button a {
     color: var(--black-color);
 }
 
-.button-box {
+.button-box, .integr-box {
     margin-left: 148px;
 }
 
@@ -401,15 +401,129 @@ button a {
     Height: 960px;
     background: #F2EDE7;
     margin-top: 152px;
+    padding-top: 91px;
 }
-.features,.features-title,.features-img-l{
+
+
+.features, .features-title, .features-img-l {
     margin-left: 122px;
 }
 
-.features-img{
+.features, .integr, .case {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: #375361;
+
+}
+
+.features-title {
+    margin-top: 10px;
+}
+
+.features-img {
+    display: flex;
+    width: 384px;
+    height: 320px;
+    margin-top: 212px;
+}
+
+.features-img-r {
+    margin-left: 141px;
+    width: 588px;
+    height: 484px;
+}
+
+.integr-box {
+    width: 1440px;
+    height: 418px;
+    margin-top: 160px;
+    padding-top: 24px;
     display: flex;
 }
 
-.features-img-r{
-    margin-left: 141px;
+.integr-content {
+    width: 678px;
+    height: 418px;
+}
+
+.integr-title {
+    margin-top: 15px;
+}
+
+.integr-text {
+    margin-top: 37px;
+}
+
+.integer-btn {
+    background: #F9C600;
+    border: 1px solid #F9C600;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-top: 36px;
+    width: 208px;
+    height: 54px;
+}
+
+.integer-btn p {
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--title-color);
+}
+
+.integr-img {
+    margin-left: 183px;
+}
+
+.case-box {
+    margin-top: 240px;
+    width: 1376px;
+    height: 584px;
+    display: flex;
+    background: #F2EDE7;
+
+}
+
+.case-l {
+    padding-top: 80px;
+    padding-left: 116px;
+    width: 562px;
+    height: 584px;
+    border-radius: 10px 0 0 10px;
+}
+
+.case-title {
+    margin-top: 17px;
+    width: 314px;
+    height: 64px;
+    font-size: 24px;
+    line-height: 32px;
+    color: var(--title-color);
+}
+
+.case-text {
+    margin-top: 27px;
+    width: 325px;
+    height: 84px;
+    font-size: 17px;
+    line-height: 28px;
+    color: var(--title-color);
+}
+
+.read-more {
+    width: 140px;
+    height: 54px;
+    border: 1px solid #0B2330;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-top: 36px;
+    background: none;
+}
+
+.case-img {
+    margin-left: 20px;
+}
+.foot-box{
+    background-color: var(--title-color);
 }
