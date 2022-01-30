@@ -524,6 +524,90 @@ button a {
 .case-img {
     margin-left: 20px;
 }
-.foot-box{
+
+.foot-box {
     background-color: var(--title-color);
+}
+.foot-top{
+    width: 1440px;
+    height: 423px;
+    text-align: center;
+    padding-top: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.foot-top-title{
+    width: 609px;
+    height: 96px;
+    font-size: 42px;
+    line-height: 48px;
+    letter-spacing: 0.42px;
+    color: #FFFFFF;
+
+}
+.mt36{
+    margin-top: 36px;
+}
+.foot-top-text{
+    width: 642px;
+    height: 56px;
+    font-size: 17px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-top: 31px;
+}
+.foot-bottom{
+    width: 1440px;
+    height: 638px;
+}
+.foot-bottom-logo-menu{
+    margin-top: 80px;
+    margin-left: 32px;
+    display: flex;
+}
+.foot-bottom-logo{
+    width: 127px;
+    height: 48px;
+}
+.foot-menu{
+    margin-left: 110px;
+    display: flex;
+}
+.foot-menu-item{
+    width: 196px;
+    height: 290px;
+    margin-right: 40px;
+}
+.foot-menu-item-title {
+    font-size: 16px;
+    line-height: 24px;
+    color: #F9C600;
+
+}
+.foot-menu-item-text{
+    font-size: 16px;
+    line-height: 24px;
+    color: #94A0A4;
+    margin-top: 14px;
+}
+.copy{
+    width: 1022px;
+    height: 28px;
+    margin-top: 65px;
+    margin-left: 268px;
+    display: flex;
+    justify-content: space-between;
+}
+.copy-text{
+    font-size: 14px;
+    line-height: 20px;
+    color: #94A0A4;
+}
+.copy-icons{
+    width: 132px;
+    height: 28px;
+    display: flex;
+    justify-content: space-between;
 }
