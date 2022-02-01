@@ -97,3 +97,21 @@ console.log(123 == '123');
     document.write(str * "2" + "<br/>"); //20*2=40
     document.write(str / 2 + "<br/>"); //20/2=10
 }
+// Ваше завдання, зробити так, щоб файл відкривався без помилок .
+{
+    let a = 100;
+    let b = 500;
+    let c = "hello";
+    let e = "okten";
+    const x = 'constant value';
+    {
+        console.log(a);
+        k = 'new value';
+    }
+    let f = 7;
+
+    let result = 100 + 'y';
+
+    console.log(result);
+
+}
