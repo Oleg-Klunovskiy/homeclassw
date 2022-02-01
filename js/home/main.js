@@ -27,7 +27,7 @@ a12 = 10 * 4;
 a13 = 42;
 //Вивести кожну змінну за допомогою: console.log , alert, document.write
 console.log(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a12, a13);
-//alert(a1 + a2 + a3 + a4 + a5 + a6 + a7 + a8 + a9 + a10 + a11 + a12 + a13);
+alert(a1 + a2 + a3 + a4 + a5 + a6 + a7 + a8 + a9 + a10 + a11 + a12 + a13);
 document.write(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a12, a13);
 //Створити 3 змінних firstName, middleName, lastName, наповнити їх своїм ПІБ.
 // З'єднати їх в одну змінну person.
@@ -40,12 +40,12 @@ console.log(person);
 //являються вашими Імям, По-Батькові та роками.
 
 
-//prompt(person[0]);
-//prompt(person[1]);
-//prompt(person[2]);
+prompt(person[0]);
+prompt(person[1]);
+prompt(person[2]);
 
 let age = 'age ';
-//prompt(age);
+prompt(age);
 
 
 //Вивести "Вітаю *Імя* *По батькові*. Тобі *вік* років".
