@@ -2,16 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa20bd0f-a08d-4688-ad64-7eb773ce50c7" name="Changes" comment="Merge remote-tracking branch 'github/master'">
-      <change afterPath="$PROJECT_DIR$/home/Sprig/img/copy-f.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/Sprig/img/copy-in.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/Sprig/img/copy-t.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/home/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/home/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/home/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/home/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="PUSH_AUTO_UPDATE" value="true" />
@@ -69,7 +75,7 @@
       <workItem from="1643478749409" duration="4868000" />
       <workItem from="1643533263649" duration="4540000" />
       <workItem from="1643651015546" duration="55000" />
-      <workItem from="1643703040615" duration="309000" />
+      <workItem from="1643703040615" duration="7715000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1642512691903</created>
@@ -372,7 +378,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643537764504</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Merge remote-tracking branch 'github/master'">
+      <created>1643703358953</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1643703358953</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
