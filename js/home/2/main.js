@@ -87,7 +87,7 @@ let dayOfWeeks = +prompt('Введіть день тижня від 1 до 7')
          console.log('НЕДІЛЯ: рибалка');
          break;
      default:
-         console.log("Ти щось не то ввів");
+         console.log("Введіть день тижня від 1 до 7");
  }
 
 
