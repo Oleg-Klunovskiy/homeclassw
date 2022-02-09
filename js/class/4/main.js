@@ -79,7 +79,6 @@ function arraySum(array) {
     }
     console.log(midle);
 }
-
 arraySum(arr)
 */
 
