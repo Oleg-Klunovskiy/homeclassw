@@ -55,7 +55,7 @@ function maxArr(array){
 let res = (maxArr(arr));
 console.log(res);*/
 /*- створити функцію яка приймає масив чисел, сумує значення елементів масиву та повертає його. Приклад [1,2,10]->13*/
-/*var arr = [1, 2, 10];
+/* arr = [1, 2, 10];
 
 function arraySum(array) {
     let sum = 0;
