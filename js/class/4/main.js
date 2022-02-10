@@ -68,19 +68,20 @@ function arraySum(array) {
 arraySum(arr)*/
 
 /*- створити функцію яка приймає масив чисел та повертає середнє арифметичне його значень.*/
-/*
-var arr = [1, 2, 3];
 
-function arraySum(array) {
+
+/*let arr = [1, 2, 7];
+
+function midle(array) {
     let sum = 0;
-    for (let i = 0; i < array.length; i++) {
-        sum += array[i];
-        midle = sum/arr.length
+    for (const arrayElement of array) {
+        sum += arrayElement;
+
     }
-    console.log(midle);
+    return sum / array.length;
 }
-arraySum(arr)
-*/
+
+console.log(midle(arr))*/
 
 
 /*- створити функцію яка приймає будь-яку кількість чисел, повертає найменьше, а виводить найбільше
@@ -128,7 +129,16 @@ console.log(randomLimit(10,100));*/
 
 
 /*- Функція приймає масив та робить з нього новий масив в зворотньому порядку. [1,2,3] -> [3, 2, 1].*/
+let arr = [1,2,3];
+function reverse(arr) {
 
+     for ( i = arr.length - 1, ri = 0; i >= 0; i--, ri++) {
+         newArr[ri] = newArr[i];
+     }
+
+     return newArr;
+
+ }
 
 
 
