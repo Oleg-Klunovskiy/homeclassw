@@ -129,16 +129,17 @@ console.log(randomLimit(10,100));*/
 
 
 /*- Функція приймає масив та робить з нього новий масив в зворотньому порядку. [1,2,3] -> [3, 2, 1].*/
-let arr = [1,2,3];
+let arr = [1, 2, 3];
+
 function reverse(arr) {
 
-     for ( i = arr.length - 1, ri = 0; i >= 0; i--, ri++) {
-         newArr[ri] = newArr[i];
-     }
+    for (i = arr.length - 1, ri = 0; i >= 0; i--, ri++) {
+        newArr[ri] = newArr[i];
+    }
 
-     return newArr;
+    return newArr;
 
- }
+}
 
 
 
