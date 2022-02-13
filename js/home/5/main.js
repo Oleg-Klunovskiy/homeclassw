@@ -76,11 +76,11 @@ liTxtNum('text',8);*/
 
 /*- створити функцію яка приймає масив об'єктів з наступними полями id,name,age , та виводить їх в документ.
  Для кожного об'єкту окремий блок.*/
-let arr = [{id: 1, name: 'name1', age: 23}, {id: 2, name: 'name2', age: 34}, {id: 3, name: 'name3', age: 45}];
+/*let arr = [{id: 1, name: 'name1', age: 23}, {id: 2, name: 'name2', age: 34}, {id: 3, name: 'name3', age: 45}];
 
 const objArray = (array) => {
     for (const arrayElement of array) {
         document.write(`<p>${arrayElement.id}. ${arrayElement.name} ${arrayElement.age}</p>`);
     }
 }
-objArray(arr);
+

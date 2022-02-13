@@ -87,7 +87,7 @@ console.log(ser((arr)))*/
         return min;
     }
 
-document.write('Мінімальне число: ' + minMax(543, 42, 11, 76, 35232))*/
+document.write('Мінімальне число: ' + minMax(1, 42, 11, 76, 35232))*/
 
 /*- створити функцію яка заповнює масив рандомними числами
 (цей код генерує рандомні числа в діапазоні від 0 до 100 - Math.round(Math.random()*100))
@@ -123,3 +123,4 @@ const reverse = (arr) => {
     return newArr;
 
 }*/
+alert(jrvr)
