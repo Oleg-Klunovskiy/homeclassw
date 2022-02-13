@@ -68,15 +68,25 @@ document.writeln(delete_characters(str, 7)); // Каждый*/
     let str = "HTML JavaScript PHP";
 document.writeln(insert_dash(str)); // 'HTML-JAVASCRIPT-PHP'*/
 
-let insert_dash = (str) => {
-    let splitJoinUpper = str.split(' ').join('-').toUpperCase();
+/*let insert_dash = (str) => {
+    let splitJoinUpper = str.split(' ').join(' - ').toUpperCase();
     return splitJoinUpper;
 }
 let str = "HTML JavaScript PHP";
-document.write(insert_dash(str)); // 'HTML-JAVASCRIPT-PHP'
+document.write(insert_dash(str)); // 'HTML-JAVASCRIPT-PHP'*/
 
 /*- Напишіть функцію, яка приймає рядок як аргумент і перетворює регістр першого символу рядка з нижнього регістру у верхній.*/
+/*
 
+let firstUpper = (str) => {
+    return str[0].toUpperCase() + str.slice(1)
+}
+console.log(firstUpper('hello world'))
+*/
 
 /*
 - Напишіть функцію capitalize(str), яка повертає рядок, у якому кожне слово починається з великої літери.*/
+/*let capitalize = (str) => {
+    return str.split(' ').map(item => item.charAt(0).toUpperCase() + item.slice(1)).join(' ');
+}
+console.log(capitalize('hello new user'))*/
