@@ -17,9 +17,10 @@ userArr = [
     new User(47, 'Andriy', 'Sr4', 'Sr4@mail.com', 0635544114),
     new User(52, 'Stepan', 'Sr5', 'Sr5@mail.com', 0635544115),
     new User(60, 'Stepan', 'Sr6', 'Sr6@mail.com', 0635544116),
+    new User(60, 'Stepan', 'Sr6', 'Sr6@mail.com', 0635544116),
+    new User(60, 'Stepan', 'Sr6', 'Sr6@mail.com', 0635544116),
+    new User(60, 'Stepan', 'Sr6', 'Sr6@mail.com', 0635544116),
     new User(77, 'Mariya', 'Sr7', 'Sr7@mail.com', 0635544117),
-    new User(84, 'Slavik', 'Sr8', 'Sr8@mail.com', 0635544118
-),
 ]
 */
 
@@ -48,6 +49,7 @@ class Client {
         this.order = order;
     }
 }
+
 clientArr = [
     new Client(14, 'Oleg', 'Sr1', 'Sr1@mail.com', 0635544111, ['tovar1', 'tovar34', 'tovar65']),
     new Client(21, 'Olia', 'Sr2', 'Sr2@mail.com', 0635544112, ['tovar1', 'tovar34', 'tovar65', 'tovar932']),
@@ -56,7 +58,8 @@ clientArr = [
     new Client(52, 'Stepan', 'Sr5', 'Sr5@mail.com', 0635544115, ['tovar1', 'tovar34', 'tovar65']),
     new Client(60, 'Stepan', 'Sr6', 'Sr6@mail.com', 0635544116, ['tovar1', 'tovar34']),
     new Client(77, 'Mariya', 'Sr7', 'Sr7@mail.com', 0635544117, ['tovar1', 'tovar34', 'tovar65', 'tovar932']),
-    new Client(84, 'Slavik', 'Sr8', 'Sr8@mail.com', 0635544118, ['tovar1', 'tovar34', 'tovar65']),
+    new Client(84, 'Slavik', 'Sr8', 'Sr8@mail.com', 0635544118, ['tovar1', 'tovar34', 'tovar65']
+),
 ]
 
 
