@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54c37089-5c18-4e05-9b3c-0d5d4c8caeb7" name="Changes" comment="Merge remote-tracking branch 'github/master'">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/class/7/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/class/7/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -119,14 +120,7 @@
       <workItem from="1644836083431" duration="107000" />
       <workItem from="1644836203293" duration="4000" />
       <workItem from="1645082139563" duration="3418000" />
-      <workItem from="1645089149441" duration="398000" />
-    </task>
-    <task id="LOCAL-00044" summary="Merge remote-tracking branch 'github/master'">
-      <created>1643703358953</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1643703358953</updated>
+      <workItem from="1645089149441" duration="3188000" />
     </task>
     <task id="LOCAL-00045" summary="Merge remote-tracking branch 'github/master'">
       <created>1643724556485</created>
@@ -464,7 +458,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645089323126</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="Merge remote-tracking branch 'github/master'">
+      <created>1645089624950</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1645089624950</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
