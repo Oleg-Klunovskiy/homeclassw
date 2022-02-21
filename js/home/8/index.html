@@ -32,16 +32,46 @@
 <script>
 
     /* -- отримує текст з параграфа з id "content"*/
-    let contentId = document.getElementById('content');
-    console.log(contentId);
-    /* -- отримує текст з блоку з id "rules"*/
-    /*-- замініть текст параграфа з id 'content' на будь-який інший*/
-    /*-- замініть текст параграфа з id 'rules' на будь-який інший*/
-    /*-- змініть кожному елементу колір фону на червоний*/
-    /*-- змініть кожному елементу колір тексту на синій*/
-    /*-- отримати весь список класів елемента з id=rules і вивести їх в console.log*/
-    /*-- поміняти колір тексту у всіх елементів fc_rules на червоний*/
 
+    let contentById = document.getElementById('content');
+    console.log(contentById);
+
+    /* -- отримує текст з блоку з id "rules"*/
+
+    let rulesById = document.getElementById('rules');
+    console.log(rulesById);
+
+    /*-- замініть текст параграфа з id 'content' на будь-який інший*/
+
+    contentById.innerHTML = '<p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>'
+
+    /*-- замініть текст параграфа з id 'rules' на будь-який інший*/
+
+    rulesById.innerHTML = '<p>Lorem ipsum dolor sit amet.</p>'
+
+    /*-- змініть кожному елементу колір фону на червоний*/
+
+    let elementBackground = document.body.children;
+    for (const element of elementBackground) {
+        element.style.backgroundColor = 'red';
+    }
+
+    /*-- змініть кожному елементу колір тексту на синій*/
+
+    let textColor = document.body.children;
+    for (const element of textColor) {
+        element.style.color = 'blue';
+    }
+
+    /*-- отримати весь список класів елемента з id=rules і вивести їх в console.log*/
+
+    console.log(document.getElementById('rules').classList);
+
+    /*-- поміняти колір тексту у всіх елементів fc_rules на червоний*/
+    let classRules = document.getElementsByClassName('fc_rules');
+    for (const element of classRules) {
+        element.style.color = 'red'
+    }
 
 </script>
 </body>
