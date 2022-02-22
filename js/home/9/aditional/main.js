@@ -1,88 +1,76 @@
-/*Все робити за допомоги js.
-- створити блок,
-    - додати йому класи wrap, collapse, alpha, beta
-- додати стилі(довільні значення) : колір фону, колір тексту, розмір тексту
-- додати цей блок в body.
-- клонувати його повністю, та додати клон в body.*/
+/*- З масиву users за допомогою циклу витягнути адреси користувачів і записати (скопіювати) їх в інший порожній масив.*/
 
-let div = document.createElement('div');
 
-div.classList.add('wrap');
-div.classList.add('collapse');
-div.classList.add('alpha');
-div.classList.add('beta');
+/*- За допомоги циклу проітерувати  масив users, записати кожного юзера в сівй блок за допомоги
+ document.createElement. Всі данні в одному блоці.*/
 
-div.style.background = 'grey';
-div.style.color = 'red';
-div.style.fontSize = '20px';
 
-document.body.appendChild(div);
 
-document.body.appendChild(div.cloneNode(true));
+/*- За допомоги циклу проітерувати  масив users, записати кожного юзера в сівй блок за допомоги document.createElement, розділивши всі властивості по своїм блокам (div>div*4)*/
+/*- За допомоги циклу проітерувати  масив users, записати кожного юзера в сівй блок за допомоги document.createElement, розділивши всі властивості по своїм блокам ,
+ блок з адресою зробити окремим блоком, з блоками для кожної властивості*/
 
-/*- Є масив:
-    ['Main','Products','About us','Contacts']
-Взяти файл template1.html та додати в нього скріпт котрий для кожного елементу масиву створює li та додає його до блоку .menu
-Завдання робити через цикли.*/
+let users = [{
+    name: 'vasya',
+    age: 31,
+    status: false,
+    address: {city: 'Lviv', country: 'Ukraine', street: 'Shevchenko', houseNumber: 1}
+}, {
+    name: 'petya',
+    age: 30,
+    status: true,
+    address: {city: 'New York', country: 'USA', street: 'East str', houseNumber: 21}
+}, {
+    name: 'kolya',
+    age: 29,
+    status: true,
+    address: {city: 'Budapest', country: 'Hungary', street: 'Kuraku', houseNumber: 78}
+}, {
+    name: 'olya',
+    age: 28,
+    status: false,
+    address: {city: 'Prague', country: 'Czech', street: 'Paster', houseNumber: 56}
+}, {
+    name: 'max',
+    age: 30,
+    status: true,
+    address: {city: 'Istanbul', country: 'Turkey', street: 'Mikar', houseNumber: 39}
+}, {
+    name: 'anya',
+    age: 31,
+    status: false,
+    address: {city: 'Rio', country: 'Brasil', street: 'Ronaldi', houseNumber: 5}
+}, {
+    name: 'oleg',
+    age: 28,
+    status: false,
+    address: {city: 'Montreal', country: 'Canada', street: 'Acusto', houseNumber: 90}
+}, {
+    name: 'andrey',
+    age: 29,
+    status: true,
+    address: {city: 'Quebeck', country: 'Canada', street: 'Binaro', houseNumber: 33}
+}, {
+    name: 'masha',
+    age: 30,
+    status: true,
+    address: {city: 'Moscow', country: 'Russia', street: 'Gogolia', houseNumber: 1}
+}, {
+    name: 'olya',
+    age: 31,
+    status: false,
+    address: {city: 'Portland', country: 'USA', street: 'Forest str', houseNumber: 4}
+}, {
+    name: 'max',
+    age: 31,
+    status: true,
+    address: {city: 'Cairo', country: 'Egypt', street: 'Seashore', houseNumber: 45}
+}];
 
-let company = ['Main', 'Products', 'About us', 'Contacts'];
-
-for (const element of company) {
-    let li = document.createElement('li')
-    let h2 = document.createElement('h2')
-    h2.innerText = `${element}`
-    li.append(h2);
-
-    let liMenu = document.getElementsByClassName('menu')[0];
-    liMenu.append(li);
+for (const element of users){
+    let infoUser = document.createElement('div');
+    infoUser.innerText = element;
+    document.body.append(infoUser);
 
 }
-
-
-/*- Є масив
-Для кожного елементу масиву зробити блок в якому вивести інформацію про title та monthDuration
-Завдання робити через цикли.*/
-
-
-let coursesAndDurationArray = [
-    {title: 'JavaScript Complex', monthDuration: 5},
-    {title: 'Java Complex', monthDuration: 6},
-    {title: 'Python Complex', monthDuration: 6},
-    {title: 'QA Complex', monthDuration: 4},
-    {title: 'FullStack', monthDuration: 7},
-    {title: 'Frontend', monthDuration: 4}
-];
-
-/*for (const element of coursesAndDurationArray) {
-    let divElement = document.createElement('div');
-    divElement.innerText = `${element.title} ${element.monthDuration}`;
-    document.body.append(divElement);
-}*/
-
-/*- Є масив
-let coursesAndDurationArray = [
-    {title: 'JavaScript Complex', monthDuration: 5},
-    {title: 'Java Complex', monthDuration: 6},
-    {title: 'Python Complex', monthDuration: 6},
-    {title: 'QA Complex', monthDuration: 4},
-    {title: 'FullStack', monthDuration: 7},
-    {title: 'Frontend', monthDuration: 4}
-];
-За допомоги скріпта для кожного елементу масиву зробити <div class='item'> ,  в якому буде <h1 class='heading'>
- з title  елементу, та <p class='description'> з monthDuration елементу.
-    Завдання робити через цикли.
-*/
-for (const element of coursesAndDurationArray) {
-    let divElement = document.createElement('div');
-
-    let h4 = document.createElement('h4');
-    h4.innerText = element.title + ' триває';
-
-    let p = document.createElement('p');
-    p.innerText = element.monthDuration + ' місяці(в)';
-
-    divElement.appendChild(h4);
-    divElement.appendChild(p);
-    document.body.appendChild(divElement);
-}
-
+for (const )

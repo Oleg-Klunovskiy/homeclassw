@@ -180,4 +180,4 @@ let coursesArray = [
     courseElement.append(modulesElement)
     document.body.append(courseElement);
 
-}*/
+}
