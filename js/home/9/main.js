@@ -1,87 +1,88 @@
-/*- створити функцію яка обчислює та повертає площу прямокутника зі сторонами а і б*/
-/*let a = 7;
-let b = 9;
+/*Все робити за допомоги js.
+- створити блок,
+    - додати йому класи wrap, collapse, alpha, beta
+- додати стилі(довільні значення) : колір фону, колір тексту, розмір тексту
+- додати цей блок в body.
+- клонувати його повністю, та додати клон в body.*/
 
-function areaRectangle(a, b) {
-    let sRectangle = a * b;
-    return sRectangle;
+let div = document.createElement('div');
+
+div.classList.add('wrap');
+div.classList.add('collapse');
+div.classList.add('alpha');
+div.classList.add('beta');
+
+div.style.background = 'grey';
+div.style.color = 'red';
+div.style.fontSize = '20px';
+
+document.body.appendChild(div);
+
+document.body.appendChild(div.cloneNode(true));
+
+/*- Є масив:
+    ['Main','Products','About us','Contacts']
+Взяти файл template1.html та додати в нього скріпт котрий для кожного елементу масиву створює li та додає його до блоку .menu
+Завдання робити через цикли.*/
+
+let company = ['Main', 'Products', 'About us', 'Contacts'];
+
+for (const element of company) {
+    let li = document.createElement('li')
+    let h2 = document.createElement('h2')
+    h2.innerText = `${element}`
+    li.append(h2);
+
+    let liMenu = document.getElementsByClassName('menu')[0];
+    liMenu.append(li);
+
 }
 
-console.log(areaRectangle(a, b))*/
 
-/*- створити функцію яка обчислює та повертає площу кола з радіусом r*/
-/*function circleS(r) {
-    let radius = r ** 2;
-    let sCircle = 3.14 * radius;
-    return sCircle;
+/*- Є масив
+Для кожного елементу масиву зробити блок в якому вивести інформацію про title та monthDuration
+Завдання робити через цикли.*/
+
+
+let coursesAndDurationArray = [
+    {title: 'JavaScript Complex', monthDuration: 5},
+    {title: 'Java Complex', monthDuration: 6},
+    {title: 'Python Complex', monthDuration: 6},
+    {title: 'QA Complex', monthDuration: 4},
+    {title: 'FullStack', monthDuration: 7},
+    {title: 'Frontend', monthDuration: 4}
+];
+
+/*for (const element of coursesAndDurationArray) {
+    let divElement = document.createElement('div');
+    divElement.innerText = `${element.title} ${element.monthDuration}`;
+    document.body.append(divElement);
+}*/
+
+/*- Є масив
+let coursesAndDurationArray = [
+    {title: 'JavaScript Complex', monthDuration: 5},
+    {title: 'Java Complex', monthDuration: 6},
+    {title: 'Python Complex', monthDuration: 6},
+    {title: 'QA Complex', monthDuration: 4},
+    {title: 'FullStack', monthDuration: 7},
+    {title: 'Frontend', monthDuration: 4}
+];
+За допомоги скріпта для кожного елементу масиву зробити <div class='item'> ,  в якому буде <h1 class='heading'>
+ з title  елементу, та <p class='description'> з monthDuration елементу.
+    Завдання робити через цикли.
+*/
+for (const element of coursesAndDurationArray) {
+    let divElement = document.createElement('div');
+
+    let h4 = document.createElement('h4');
+    h4.innerText = element.title + ' триває';
+
+    let p = document.createElement('p');
+    p.innerText = element.monthDuration + ' місяці(в)';
+
+    divElement.appendChild(h4);
+    divElement.appendChild(p);
+    document.body.appendChild(divElement);
 }
 
-console.log(circleS(8))*/
-/*- створити функцію яка обчислює та повертає площу циліндру висотою h, та радіутом r*/
-/*function cylinderS(r, h) {
-     let sCylinder = 2 * 3.14 * r * h;
-     return sCylinder;
- }
- console.log(cylinderS(8,7))*/
-/*- створити функцію яка приймає масив та виводить кожен його елемент*/
-/* let array = [1,2,3,4,5];
- function dataArray (array) {
-     for (let i = 0; i < array.length; i++) {
-        document.write(array[i])
-     }
-}
-console.log(dataArray(array))*/
-/*- створити функцію яка створює параграф з текстом. Текст задати через аргумент*/
-/* function dwP (text) {
-     for (let i = 1; i <= 10; i++) {
-        document.write(`<p>${i}  ${text}</p>`)
-     }
- }
- dwP('any text')*/
-/*- створити функцію яка створює ul з трьома елементами li.
- Текст li задати через аргумент всім однаковий*/
-/* function createUl(txtli) {
-     document.write(`<ul>`)
-     document.write(`<li>${txtli}</li>`)
-     document.write(`<li>${txtli}</li>`)
-     document.write(`<li>${txtli}</li>`)
-     document.write(`</ul>`)
- }
- createUl('Text');*/
-
-/*- створити функцію яка створює ul з трьома елементами li.
- Текст li задати через аргумент всім однаковий.
-    Кількість li визначається другим аргументом, який є числовим (тут використовувати цикл)*/
-/*function createUl(text, number) {
-    document.write(`<ul>`)
-    for (let i = 0; i < number; i++) {
-        document.write(`<li>${number}${text}</li>`);
-
-    }
-    document.write(`</ul>`)
-}
-
-createUl('some li', 3);*/
-
-/*- створити функцію яка приймає масив примітивних елементів (числа,стрінги,булеві),
- та будує для них список*/
-
-/*let anyArray = [true,false,'name',45, 'status',30];
- function primitivArr (array){
-     document.write(`<ul>`)
-         for (let i = 0; i < array.length; i++) {
-             document.write(`<li>${array[i]}</li>`);
-         }
-     document.write(`</ul>`)
- }
- primitivArr(anyArray);*/
-
-/*- створити функцію яка приймає масив об'єктів з наступними полями id,name,age ,
- та виводить їх в документ. ' +'Для кожного об'єкту окремий блок.*/
- let arr = [{id: 1, name: 'someName', age: 43}, {id: 2, name: 'someName2', age: 23}, {id: 3, name: 'someName3', age: 12}];
- function objArray(array) {
-     for (const arrayElement of array) {
-         document.write(`<div>${arrayElement.id}.${arrayElement.name} probably ${arrayElement.age}</div>`);
-     }
- }
-objArray(arr);
