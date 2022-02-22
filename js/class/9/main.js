@@ -50,7 +50,7 @@ let simpsons = [
     Проітерувати його, створиши для кожного елементу масиву <div class='member'>.
 Для кожної властивості елементу створити окремий блок, та помістити його у div.member*/
 
-for (const element of simpsons) {
+/*for (const element of simpsons) {
     divElement = document.createElement('div');
     divElement.classList.add('member');
 
@@ -74,9 +74,9 @@ for (const element of simpsons) {
     divElement.append(age);
     divElement.append(info);
     divElement.append(img);
-    document.body.append(divElement)
+    document.body.append(divElement);
 
-}
+}*/
 
 /*- Є масив*/
 let coursesArray = [
@@ -153,3 +153,31 @@ let coursesArray = [
     в яких будуть зберігатись значення окремих властивостей,
     для властивості modules зробити список з елементами
 Приклад структири знаходиться у файлі example.png*/
+
+/*for (const course of coursesArray) {
+    let courseElement = document.createElement('course');
+    let titleElement = document.createElement('h2');
+    titleElement.innerText = course.title;
+
+
+    let monthDurationElement = document.createElement('div');
+    monthDurationElement.innerText = course.monthDuration
+
+    let hourDurationElement = document.createElement('div');
+    hourDurationElement = course.hourDuration;
+
+    let modulesElement = document.createElement('ul');
+
+    for (const moduleElement of course.modules) {
+        let module = document.createElement('li')
+        module.innerText = moduleElement
+        modulesElement.append(module)
+    }
+
+    courseElement.append(titleElement);
+    courseElement.append(monthDurationElement);
+    courseElement.append(hourDurationElement);
+    courseElement.append(modulesElement)
+    document.body.append(courseElement);
+
+}*/
