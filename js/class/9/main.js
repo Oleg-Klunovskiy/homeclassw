@@ -154,7 +154,7 @@ let coursesArray = [
     для властивості modules зробити список з елементами
 Приклад структири знаходиться у файлі example.png*/
 
-/*for (const course of coursesArray) {
+for (const course of coursesArray) {
     let courseElement = document.createElement('course');
     let titleElement = document.createElement('h2');
     titleElement.innerText = course.title;

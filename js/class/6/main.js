@@ -97,3 +97,38 @@ console.log(coursesAndDurationArray);*/
     return value.monthDuration > 5;
 });
 console.log(filter);*/
+
+const array = ["asd", "a", "asdf", "fa", "asds", "ww"];
+const array2 = ["asd", "a", "asdf", "fa", "ww"];
+
+const a = "asdasd";
+console.log(a.length);
+
+// 1. змінна макс
+// 2. порівняти елемент массиву із значенням макс
+
+const example = (array) => {
+    let max = 0;
+    const finalArray = [];
+
+    for (let i = 0; i < array.length; i++) {
+        if (array[i].length > max) {
+            max = array[i].length;
+        }
+    }
+
+    for (let i = 0; i < array.length; i++) {
+        if (array[i].length === max) {
+            finalArray.push(array[i]);
+        }
+    }
+
+    return finalArray;
+}
+
+
+
+console.log(example(array)); // => ["asdf", "asds"];
+console.log(example(array2)); // => ["asdf"];
+
+;

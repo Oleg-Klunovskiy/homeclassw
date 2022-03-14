@@ -38,6 +38,9 @@ for (const element of company) {
 
 }
 
+company.forEach(el => {
+
+})
 
 /*- Є масив
 Для кожного елементу масиву зробити блок в якому вивести інформацію про title та monthDuration

@@ -10,6 +10,7 @@
 /*- За допомоги циклу проітерувати  масив users, записати кожного юзера в сівй блок за допомоги document.createElement, розділивши всі властивості по своїм блокам ,
  блок з адресою зробити окремим блоком, з блоками для кожної властивості*/
 
+
 let users = [{
     name: 'vasya',
     age: 31,
@@ -64,13 +65,21 @@ let users = [{
     name: 'max',
     age: 31,
     status: true,
-    address: {city: 'Cairo', country: 'Egypt', street: 'Seashore', houseNumber: 45}
+    address: {}
 }];
 
-for (const element of users){
-    let infoUser = document.createElement('div');
-    infoUser.innerText = element;
-    document.body.append(infoUser);
+// for (const element of users){
+//     let infoUser = document.createElement('div');
+//     infoUser.innerText = element;
+//     document.body.append(infoUser);
+//
+// }
+/*for (const )*/
 
-}
-for (const )
+const adresses = [];
+users.forEach(user => {
+    if (Object.keys(user.address).length) {
+        adresses.push(user.address);
+    }
+})
+console.log(adresses);
