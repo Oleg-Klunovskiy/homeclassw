@@ -1,5 +1,13 @@
 /*- З масиву users за допомогою циклу витягнути адреси користувачів і записати (скопіювати) їх в інший порожній масив.*/
 
+const adresses = [];
+users.forEach(user => {
+    if (Object.keys(user.address).length) {
+        adresses.push(user.address);
+    }
+})
+console.log(adresses);
+
 
 /*- За допомоги циклу проітерувати  масив users, записати кожного юзера в сівй блок за допомоги
  document.createElement. Всі данні в одному блоці.*/

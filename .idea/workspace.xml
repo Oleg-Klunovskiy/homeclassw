@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="54c37089-5c18-4e05-9b3c-0d5d4c8caeb7" name="Changes" comment="Merge remote-tracking branch 'github/master'">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/class/6/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/class/6/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/class/9/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/class/9/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/home/9/aditional/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/home/9/aditional/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/home/9/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/home/9/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,13 +137,8 @@
       <workItem from="1646935859861" duration="1006000" />
       <workItem from="1646938359875" duration="523000" />
       <workItem from="1646939401869" duration="908000" />
-    </task>
-    <task id="LOCAL-00068" summary="Merge remote-tracking branch 'github/master'">
-      <created>1644311347125</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1644311347125</updated>
+      <workItem from="1647264594006" duration="87000" />
+      <workItem from="1647264759395" duration="8000" />
     </task>
     <task id="LOCAL-00069" summary="Merge remote-tracking branch 'github/master'">
       <created>1644343124314</created>
@@ -485,7 +476,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645557495752</updated>
     </task>
-    <option name="localTasksCounter" value="117" />
+    <task id="LOCAL-00117" summary="Merge remote-tracking branch 'github/master'">
+      <created>1647264623933</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1647264623933</updated>
+    </task>
+    <option name="localTasksCounter" value="118" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
