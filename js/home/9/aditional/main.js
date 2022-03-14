@@ -76,18 +76,5 @@ let users = [{
     address: {}
 }];
 
-// for (const element of users){
-//     let infoUser = document.createElement('div');
-//     infoUser.innerText = element;
-//     document.body.append(infoUser);
-//
-// }
-/*for (const )*/
 
-const adresses = [];
-users.forEach(user => {
-    if (Object.keys(user.address).length) {
-        adresses.push(user.address);
-    }
-})
-console.log(adresses);
+
