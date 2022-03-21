@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54c37089-5c18-4e05-9b3c-0d5d4c8caeb7" name="Changes" comment="Merge remote-tracking branch 'github/master'">
+      <change afterPath="$PROJECT_DIR$/js/JsProject/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/JsProject/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/JsProject/user-details.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -12,8 +15,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -51,6 +55,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/home/5/1/2/style.css" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="copyright.filetypes.CSS" />
   </component>
@@ -139,20 +144,9 @@
       <workItem from="1646939401869" duration="908000" />
       <workItem from="1647264594006" duration="87000" />
       <workItem from="1647264759395" duration="8000" />
-    </task>
-    <task id="LOCAL-00069" summary="Merge remote-tracking branch 'github/master'">
-      <created>1644343124314</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1644343124314</updated>
-    </task>
-    <task id="LOCAL-00070" summary="Merge remote-tracking branch 'github/master'">
-      <created>1644348565099</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1644348565099</updated>
+      <workItem from="1647264774654" duration="345000" />
+      <workItem from="1647863387755" duration="4605000" />
+      <workItem from="1647871451429" duration="621000" />
     </task>
     <task id="LOCAL-00071" summary="Merge remote-tracking branch 'github/master'">
       <created>1644400695872</created>
@@ -483,7 +477,21 @@
       <option name="project" value="LOCAL" />
       <updated>1647264623933</updated>
     </task>
-    <option name="localTasksCounter" value="118" />
+    <task id="LOCAL-00118" summary="Merge remote-tracking branch 'github/master'">
+      <created>1647264847322</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1647264847322</updated>
+    </task>
+    <task id="LOCAL-00119" summary="Merge remote-tracking branch 'github/master'">
+      <created>1647264871444</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1647264871444</updated>
+    </task>
+    <option name="localTasksCounter" value="120" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

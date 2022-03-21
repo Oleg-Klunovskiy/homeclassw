@@ -1,0 +1,21 @@
+.users {
+    display: flex;
+    flex-wrap: wrap;
+}
+.user{
+    background: gray;
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    margin-left: calc(25% - 100px);
+    margin-right: calc(25% - 100px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.user-details{
+    background: gray;
+}
+.posts{
+    background: blueviolet;
+}
